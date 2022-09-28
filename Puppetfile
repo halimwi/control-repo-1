@@ -118,6 +118,11 @@ mod 'trlinkin-domain_membership', '1.1.2'
 mod 'tse-time', '1.0.1'
 mod 'tse-winntp', '1.0.1'
 #mod 'yelp-uchiwa', '2.1.0' # uchiwa is EOL in 2019
+mod 'puppetlabs-puppet_operational_dashboards', '1.3.0'
+mod 'puppet-grafana', '11.0.0'
+mod 'puppet-telegraf', '4.2.0'
+mod 'puppetlabs-influxdb', '1.2.0'
+
 
 # Re-added 'puppet-staging' module to enable the existing CloudShop app code to work, 
 # as it provides a good demo for the SQLServer module (a popular customer ask).
