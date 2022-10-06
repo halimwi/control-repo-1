@@ -5,7 +5,7 @@ Facter.add(:info) do
     when 'Linux'
       Facter::Core::Execution.exec('cat /etc/puppetlabs/puppet/info.txt')
     when 'windows'
-      Facter::Core::Execution.exec('dir')
+      Facter::Core::Execution.exec('ipconfig')
     else
       'production'
     end  
