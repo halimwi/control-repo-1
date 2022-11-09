@@ -1,0 +1,13 @@
+{
+  "name": "Copy Logs Windows",
+  "description": "Copy Application logs from Windows target",
+  "private": true,
+  "input_method": "powershell",
+  "parameters": {
+    "logfile": {
+      "description": "Enter log file name",
+      "type": "String[1]",
+      "sensitive": false
+    }
+  }
+}
