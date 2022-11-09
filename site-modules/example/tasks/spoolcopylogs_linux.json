@@ -1,0 +1,13 @@
+{
+  "name": "Copy Logs Linux application to AWS S3",
+  "description": "Copy application logs in Linux targets to AWS S3",
+  "private": true,
+  "input_method": "environment",
+  "parameters": {
+    "logfile": {
+      "description": "Enter log file name",
+      "type": "String[1]",
+      "sensitive": false
+    }
+  }
+}
