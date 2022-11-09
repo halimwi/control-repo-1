@@ -1,0 +1,12 @@
+{
+  "name": "Copy Logs Linux application less than x days old to AWS S3",
+  "description": "Copy application logs in Linux targets less than x days old to AWS S3",
+  "private": true,
+  "input_method": "stdin",
+  "parameters": {
+    "daysold": {
+      "description": "Enter less than x days old",
+      "type": "Enum[one, two, three, all]"
+    }
+  }
+}
