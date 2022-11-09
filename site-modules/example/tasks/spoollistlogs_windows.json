@@ -1,0 +1,7 @@
+{
+  "name": "List log files in Windows",
+  "description": "List application log files in Windows machines",
+  "private": true,
+  "input_method": "powershell"
+}
+
