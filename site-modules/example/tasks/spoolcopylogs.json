@@ -1,0 +1,15 @@
+{
+  "description": "Copy specific log file to AWS S3",
+  "implementations": [
+    {"name": "spoolcopylogs_linux.sh", "requirements": ["shell"]},
+    {"name": "spoolcopylogs_windows.ps1", "requirements": ["powershell"]}
+  ],
+  "parameters": {
+    "logfile": {
+      "description": "Enter log file name",
+      "type": "String[1]",
+      "sensitive": false
+    }
+  }
+}
+
