@@ -1,0 +1,7 @@
+{
+  "description": "List logs files",
+  "implementations": [
+    {"name": "spoollistlogs_linux.sh", "requirements": ["shell"]},
+    {"name": "spoollistlogs_windows.ps1", "requirements": ["powershell"]}
+  ]
+}
