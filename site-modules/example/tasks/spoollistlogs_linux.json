@@ -1,0 +1,7 @@
+{
+  "name": "List log files in Linux",
+  "description": "List application log files in Linux machines",
+  "private": true,
+  "input_method": "environment"
+}
+
