@@ -122,7 +122,7 @@ mod 'puppetlabs-puppet_operational_dashboards', '1.3.0'
 mod 'puppet-grafana', '11.0.0'
 mod 'puppet-telegraf', '4.2.0'
 mod 'puppetlabs-influxdb', '1.2.0'
-mod 'puppetlabs-kubernetes', '6.3.0'
+mod 'puppetlabs-kubernetes', '6.2.0'
 
 
 # Re-added 'puppet-staging' module to enable the existing CloudShop app code to work, 
