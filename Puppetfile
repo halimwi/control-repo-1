@@ -127,7 +127,7 @@ mod 'puppet-kmod', '3.0.0'
 #mod 'puppet-augeasproviders_core', '3.2.0'
 mod 'herculesteam-augeasproviders_sysctl', '2.6.2'
 #mod 'puppet-archive', '4.6.0'
-mod 'puppetlabs-apt', '8.5.0'
+#mod 'puppetlabs-apt', '8.5.0'
 
 
 # Re-added 'puppet-staging' module to enable the existing CloudShop app code to work, 
