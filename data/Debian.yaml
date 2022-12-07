@@ -2,7 +2,7 @@
 kubernetes::kubernetes_version: 1.20.0
 kubernetes::kubernetes_package_version:
 kubernetes::container_runtime: docker
-kubernetes::cni_network_provider: https://raw.githubusercontent.com/cilium/cilium/1.4.3/examples/kubernetes/1.10/cilium.yaml
+kubernetes::cni_network_provider: https://raw.githubusercontent.com/cilium/cilium/v1.5.0/examples/kubernetes/addons/etcd/standalone-etcd.yaml
 kubernetes::cni_pod_cidr: 10.244.0.0/16
 kubernetes::cni_provider: cilium
 kubernetes::etcd_initial_cluster: ip-10-8-0-201=https://10.8.0.201:2380,ip-10-8-0-212=https://10.8.0.212:2380,ip-10-8-0-253=https://10.8.0.253:2380
