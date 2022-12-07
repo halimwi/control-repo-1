@@ -138,6 +138,11 @@ mod 'herculesteam-augeasproviders_sysctl', '2.6.2'
 mod 'puppet-staging', '3.2.0' 
 mod 'puppetlabs-wsus_client', '4.0.0'
 
+mod 'provision',
+    git: 'https://github.com/puppetlabs/provision.git',
+    branch:         :control_branch,
+    default_branch: 'master'
+
 mod 'demo_cis',
     git: 'https://github.com/ipcrm/ipcrm-demo_cis.git',
     ref: '4e6b63b'
