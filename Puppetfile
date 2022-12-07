@@ -140,8 +140,7 @@ mod 'puppetlabs-wsus_client', '4.0.0'
 
 mod 'provision',
     git: 'https://github.com/puppetlabs/provision.git',
-    branch:         :control_branch,
-    default_branch: 'master'
+    ref: '39665ef'
 
 mod 'demo_cis',
     git: 'https://github.com/ipcrm/ipcrm-demo_cis.git',
