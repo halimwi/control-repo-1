@@ -1,9 +1,9 @@
-kubernetes::kubernetes_version: 1.14.0
+kubernetes::kubernetes_version: 1.20.0
 kubernetes::kubernetes_package_version:
 kubernetes::container_runtime: docker
-kubernetes::cni_network_provider: https://raw.githubusercontent.com/cilium/cilium/1.4.3/examples/kubernetes/1.14/cilium.yaml
+kubernetes::cni_network_provider: https://docs.projectcalico.org/archive/3.18/manifests/calico.yaml
 kubernetes::cni_pod_cidr: 10.244.0.0/16
-kubernetes::cni_provider: cilium
+kubernetes::cni_provider: calico
 kubernetes::etcd_initial_cluster: ip-10-8-0-169=https://10.8.0.169:2380,ip-10-8-0-213=https://10.8.0.213:2380,ip-10-8-0-230=https://10.8.0.230:2380
 kubernetes::etcd_peers:
 - 10.8.0.169
