@@ -24,8 +24,8 @@ hierarchy:
   # This is the main section of hiera that does lookups for each group.
   # The "pp_group" fact is set via a custom fact in the lib/ directory in the
   # control-repo/site-modules/profile module.
-  - name: "puppet_%{pp_group}"
-    datadir: "modules/puppet_%{pp_group}/data/"
+  - name: "%{pp_project}"
+    datadir: "modules/%{pp_project}/data/"
     paths:
       - "nodes/%{hostname}.yaml"
       - "clusters/%{pp_cluster}.yaml"
