@@ -8,7 +8,7 @@ node default {
   if !empty( $trusted['extensions']['pp_role'] ) {
     $role = $trusted['extensions']['pp_role']
     $project = $trusted['extensions']['pp_project']
-    include group_a::role::app_a
+    include group_b::role::app_b
   }
 }
 
