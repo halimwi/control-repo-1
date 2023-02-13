@@ -9,7 +9,7 @@ node default {
     $role = $trusted['extensions']['pp_role']
     $project = $trusted['extensions']['pp_project']
     if defined("${role}") {
-      include "${project}::role::${role}"
+      include group_a::role::app_a
     }
   }
 }
