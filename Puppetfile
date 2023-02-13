@@ -161,3 +161,8 @@ mod 'group_a',
     git:            'https://github.com/halimwi/group_a.git',
     branch:         :control_branch,
     default_branch: 'main'
+
+mod 'group_b',
+    git:            'https://github.com/halimwi/group_b.git',
+    branch:         :control_branch,
+    default_branch: 'main'
