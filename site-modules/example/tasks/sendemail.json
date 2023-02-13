@@ -1,0 +1,11 @@
+{
+  "description": "Send email",
+  "input_method": "environment",
+  "parameters": {
+    "factoutput": {
+      "description": "Provide a Fact name",
+      "type": "String[1]"
+    }
+  }
+
+}
