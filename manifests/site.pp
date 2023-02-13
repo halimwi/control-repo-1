@@ -7,7 +7,7 @@ node default {
   # Check if we've set the role for this node via trusted fact, pp_role.  If yes; include that role directly here.
   if !empty( $trusted['extensions']['pp_role'] ) {
     $role = $trusted['extensions']['pp_role']
-    $project = $truested['extensions']['pp_project']
+    $project = $trusted['extensions']['pp_project']
     if defined("${role}") {
       include "${project}::role::${role}"
     }
