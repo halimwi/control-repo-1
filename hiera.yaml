@@ -21,6 +21,15 @@ hierarchy:
     options:
       pkcs7_private_key: '/etc/puppetlabs/puppet/keys/private_key.pkcs7.pem'
       pkcs7_public_key:  '/etc/puppetlabs/puppet/keys/public_key.pkcs7.pem'
+  # This is the main section of hiera that does lookups for each group.
+  # The "pp_group" fact is set via a custom fact in the lib/ directory in the
+  # control-repo/site-modules/profile module.
+  - name: "puppet_%{pp_group}"
+    datadir: "modules/puppet_%{pp_group}/data/"
+    paths:
+      - "nodes/%{hostname}.yaml"
+      - "clusters/%{pp_cluster}.yaml"
+      - "common.yaml"
   - name: "Family"
     path: 'Debian.yaml'
   - name: "Host"
