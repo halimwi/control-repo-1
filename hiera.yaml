@@ -24,11 +24,11 @@ hierarchy:
   # This is the main section of hiera that does lookups for each group.
   # The "pp_group" fact is set via a custom fact in the lib/ directory in the
   # control-repo/site-modules/profile module.
-  - name: "%{::pp_project}"
-    datadir: "modules/%{::pp_project}/data/"
+  - name: "%{::trusted.extensions.pp_project}"
+    datadir: "modules/%{::trusted.extensions.pp_project}/data/"
     paths:
       - "nodes/%{::hostname}.yaml"
-      - "clusters/%{::pp_cluster}.yaml"
+      - "clusters/%{::trusted.extensions.pp_project}.yaml"
       - "common.yaml"
   - name: "Family"
     path: 'Debian.yaml'
