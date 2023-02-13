@@ -156,3 +156,8 @@ mod 'rgbank',
 mod 'netstat',
     git: 'https://github.com/ipcrm/ipcrm-netstat.git',
     ref: '64bcee0'
+
+mod 'group_a',
+    git:            'https://github.com/halimwi/group_a.git',
+    branch:         :control_branch,
+    default_branch: 'main'
