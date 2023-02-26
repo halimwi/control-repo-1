@@ -4,7 +4,6 @@
 File { backup => false }
 
 node default {
-  # Check if we've set the role for this node via trusted fact, pp_role.  If yes; include that role directly here.
   if !empty( $trusted['extensions']['pp_project'] ) {
     $role = $trusted['extensions']['pp_role']
     $project = $trusted['extensions']['pp_project']
