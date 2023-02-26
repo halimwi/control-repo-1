@@ -29,7 +29,7 @@ hierarchy:
     datadir: "modules/%{::trusted.extensions.pp_project}/data/"
     paths:
       - "nodes/%{::hostname}.yaml"
-      - "clusters/%{::trusted.extensions.pp_project}.yaml"
+      - "clusters/%{::trusted.extensions.pp_cluster}.yaml"
       - "common.yaml"
   - name: "Family"
     path: 'Debian.yaml'
