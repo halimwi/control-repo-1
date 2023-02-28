@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ls -ahl
+shutdown -rf now
