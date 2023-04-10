@@ -137,8 +137,8 @@ mod 'herculesteam-augeasproviders_sysctl', '2.6.2'
 # incorporate the archive module syntax. Better option might be to move CloudShop App to its own Repo.
 mod 'puppet-staging', '3.2.0' 
 mod 'puppetlabs-wsus_client', '4.0.0'
-#mod 'puppetlabs-cem_linux', '1.4.3' 
-#mod 'puppetlabs-cem_windows', '1.3.0'
+mod 'puppetlabs-cem_linux', '1.4.3' 
+mod 'puppetlabs-cem_windows', '1.3.0'
 
 mod 'provision',
     git: 'https://github.com/puppetlabs/provision.git',
