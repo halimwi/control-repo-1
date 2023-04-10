@@ -139,6 +139,16 @@ mod 'puppet-staging', '3.2.0'
 mod 'puppetlabs-wsus_client', '4.0.0'
 mod 'puppetlabs-cem_linux', '1.4.3' 
 mod 'puppetlabs-cem_windows', '1.3.0'
+mod 'puppetlabs-stdlib', '8.5.0'
+mod 'puppetlabs-concat', '7.3.3'
+mod 'puppetlabs-puppet_agent', '4.13.0'
+mod 'puppetlabs-inifile', '5.4.1'
+mod 'puppetlabs-augeas_core', '1.3.0'
+mod 'puppetlabs-firewall', '4.1.0'
+mod 'puppet-firewalld', '4.5.1'
+mod 'puppet-logrotate', '6.1.0'
+mod 'puppet-selinux', '3.4.1'
+mod 'puppet-systemd', '4.1.0'
 
 mod 'provision',
     git: 'https://github.com/puppetlabs/provision.git',
