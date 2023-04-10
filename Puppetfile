@@ -3,7 +3,7 @@ forge 'http://forge.puppetlabs.com'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-mod 'puppetlabs-augeas_core', '1.1.1'
+#mod 'puppetlabs-augeas_core', '1.1.1'
 mod 'puppetlabs-host_core', '1.0.3'
 mod 'puppetlabs-selinux_core', '1.0.4'
 mod 'puppetlabs-sshkeys_core', '2.2.0'
@@ -20,20 +20,20 @@ mod 'puppetlabs-chocolatey', '5.2.1'
 mod 'puppetlabs-cisco_ios', '1.3.0'
 mod 'puppetlabs-ciscopuppet', '2.1.0'
 #mod 'puppetlabs-comply', '1.0.5'
-mod 'puppetlabs-concat', '6.2.0'
+#mod 'puppetlabs-concat', '6.2.0'
 mod 'puppetlabs-device_manager', '3.0.1'
 mod 'puppetlabs-dism', '1.3.1'
 mod 'puppetlabs-docker', '3.12.1' # Needs updated to support powershell 4.0.0,reboot >3
 mod 'puppetlabs-dsc', '1.9.4' # Needs updated to support reboot > 3.0.0
 mod 'puppetlabs-exec', '0.8.0'
 mod 'puppetlabs-facter_task', '0.7.0'
-mod 'puppetlabs-firewall', '2.7.0'
+#mod 'puppetlabs-firewall', '2.7.0'
 mod 'puppetlabs-gcc', '0.3.0' # Needs updated to support stdlib 6.5
 mod 'puppetlabs-git', '0.5.0'
 mod 'puppetlabs-haproxy', '4.3.0'
 mod 'puppetlabs-hocon', '1.1.0'
 mod 'puppetlabs-iis', '7.1.0'
-mod 'puppetlabs-inifile', '4.4.0'
+#mod 'puppetlabs-inifile', '4.4.0'
 mod 'puppetlabs-java', '6.3.0'
 mod 'saz-limits', '3.0.4' # Replaces puppetlabs-limits 0.1.0
 mod 'puppetlabs-motd', '4.2.0'
@@ -58,7 +58,7 @@ mod 'puppetlabs-servicenow_cmdb_integration', '0.2.0'
 mod 'puppetlabs-servicenow_reporting_integration', '0.1.1'
 mod 'puppetlabs-splunk_hec', '0.8.1' # Missing requirement of puppetlabs-puppet_metrics_collector
 mod 'puppetlabs-sqlserver', '2.6.2' # Needs updated to support powershell 4.0.0
-mod 'puppetlabs-stdlib', '6.5.0'
+#mod 'puppetlabs-stdlib', '6.5.0'
 mod 'puppetlabs-tomcat', '4.2.0'
 mod 'puppetlabs-transition', '0.1.3'
 mod 'puppetlabs-translate', '2.2.0'
@@ -104,7 +104,7 @@ mod 'puppet-php', '7.1.0' # Requires zypprepo
 mod 'puppet-python', '5.0.0'
 mod 'puppet-rabbitmq', '10.2.0'
 mod 'puppet-redis', '6.1.0'
-mod 'puppet-selinux', '3.2.0'
+#mod 'puppet-selinux', '3.2.0'
 mod 'puppet-splunk', '8.0.0'
 #mod 'puppet-wget', '2.0.1' 3 # Deprecated for puppetlabs-archive, and doesn't appear to be used anywhere
 mod 'puppet-windows_env', '4.0.1'
