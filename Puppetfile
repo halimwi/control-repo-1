@@ -149,6 +149,7 @@ mod 'puppet-firewalld', '4.5.1'
 mod 'puppet-logrotate', '6.1.0'
 mod 'puppet-selinux', '3.4.1'
 mod 'puppet-systemd', '4.1.0'
+mod 'puppetlabs-ca_extend', '3.3.1'
 
 mod 'provision',
     git: 'https://github.com/puppetlabs/provision.git',
