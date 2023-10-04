@@ -128,7 +128,18 @@ mod 'puppet-kmod', '3.0.0'
 mod 'herculesteam-augeasproviders_sysctl', '2.6.2'
 #mod 'puppet-archive', '4.6.0'
 #mod 'puppetlabs-apt', '8.5.0'
-
+# Puppet comply module
+mod 'puppetlabs/comply', '2.14.0'
+ 
+# dependencies for comply
+mod 'puppet/archive', '6.0.2'
+mod 'puppetlabs/chocolatey', '6.1.1'
+mod 'puppetlabs/inifile', '5.2.0'
+mod 'puppetlabs/ruby_task_helper', '0.6.0'
+mod 'puppetlabs/stdlib', '8.1.0'
+mod 'puppetlabs/powershell', '5.0.0'
+mod 'puppetlabs/registry', '4.0.1'
+mod 'puppetlabs/pwshlib', '0.10.1'
 
 # Re-added 'puppet-staging' module to enable the existing CloudShop app code to work, 
 # as it provides a good demo for the SQLServer module (a popular customer ask).
