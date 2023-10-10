@@ -129,7 +129,7 @@ mod 'herculesteam-augeasproviders_sysctl', '2.6.2'
 #mod 'puppet-archive', '4.6.0'
 #mod 'puppetlabs-apt', '8.5.0'
 # Puppet comply module
-mod 'puppetlabs/comply', '2.14.0'
+mod 'puppetlabs/comply', '2.16.0'
  
 # dependencies for comply
 mod 'puppet/archive', '6.0.2'
