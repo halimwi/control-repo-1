@@ -48,31 +48,31 @@ mod 'puppetlabs-reboot', '5.0.0'
 #mod 'puppetlabs-patching_as_code', '1.1.7'
 #mod 'encore-patching', '1.7.0'
 
-mod 'provision',
-    git: 'https://github.com/puppetlabs/provision.git',
-    ref: '39665ef'
+#mod 'provision',
+#    git: 'https://github.com/puppetlabs/provision.git',
+#    ref: '39665ef'
 
-mod 'demo_cis',
-    git: 'https://github.com/ipcrm/ipcrm-demo_cis.git',
-    ref: '4e6b63b'
+#mod 'demo_cis',
+#    git: 'https://github.com/ipcrm/ipcrm-demo_cis.git',
+#    ref: '4e6b63b'
 
 # This is missing dependency on mayflower-php, needs updated to use puppet-php at least
 # This is missing dependency on puppet-app_modeling, is it needed?
-mod 'rgbank',
-    git:            'https://github.com/puppetlabs-seteam/puppetlabs-rgbank.git',
-    branch:         :control_branch,
-    default_branch: 'master'
+#mod 'rgbank',
+#    git:            'https://github.com/puppetlabs-seteam/puppetlabs-rgbank.git',
+#    branch:         :control_branch,
+#    default_branch: 'master'
 
-mod 'netstat',
-    git: 'https://github.com/ipcrm/ipcrm-netstat.git',
-    ref: '64bcee0'
+#mod 'netstat',
+#    git: 'https://github.com/ipcrm/ipcrm-netstat.git',
+#    ref: '64bcee0'
 
-mod 'group_a',
-    git:            'https://github.com/halimwi/group_a.git',
-    branch:         :control_branch,
-    default_branch: 'main'
+#mod 'group_a',
+#    git:            'https://github.com/halimwi/group_a.git',
+#    branch:         :control_branch,
+#    default_branch: 'main'
 
-mod 'group_b',
-    git:            'https://github.com/halimwi/group_b.git',
-    branch:         :control_branch,
-    default_branch: 'main'
+#mod 'group_b',
+#    git:            'https://github.com/halimwi/group_b.git',
+#    branch:         :control_branch,
+#    default_branch: 'main'
