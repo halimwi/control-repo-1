@@ -78,3 +78,5 @@ mod 'puppetlabs-servicenow_cmdb_integration', '0.2.0'
 #    git:            'https://github.com/halimwi/group_b.git',
 #    branch:         :control_branch,
 #    default_branch: 'main'
+
+mod 'puppetlabs-kubernetes', '8.0.0'
