@@ -180,9 +180,9 @@ cd4pe::root_config::ssl_authority_certificate: |
   wXrjkw==
   -----END CERTIFICATE-----
 
-profile::platform::baseline::linux::motd::motd: "%{trusted.external.servicenow.dns_domain}"
-#profile::platform::baseline::linux::motd:motd: "for testing"
-#profile::platform::baseline::linux::motd:motd: "for testing"
+#profile::platform::baseline::linux::motd::motd: "%{trusted.external.servicenow.dns_domain}"
+profile::platform::baseline::linux::motd::motd: "motd for testing"
+profile::platform::baseline::linux::motd::motd: "message for testing"
 
 # CEM Windows Ignore Rules (To allow RDP/WinRM & not conflict with baseline profile)
 cem_windows::config:
