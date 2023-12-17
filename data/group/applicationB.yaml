@@ -2,4 +2,4 @@
 pe_patch::patch_group: "%{trusted.external.servicenow.short_description}"
 pe_patch::blackout_windows: {"AppB End of year change freeze": {"start": "2024-02-01T00:00:00+10:00", "end": "2024-02-15T23:59:59+10:00"}}
 pe_patch::pre_patching_scriptpath: '/home/centos/appB_stopservice.sh'
-pe_patch::post_patching_scriptpath: '/home/centos/appB_healthcheck.sh
+pe_patch::post_patching_scriptpath: '/home/centos/appB_healthcheck.sh'
