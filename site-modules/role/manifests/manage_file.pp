@@ -5,7 +5,7 @@ class role::manage_file (
 
   file { 'day':
     path  => '/etc/puppetlabs/day.txt',
-    content => "day = $content",
+    content => "day=$content",
   }
  
 }

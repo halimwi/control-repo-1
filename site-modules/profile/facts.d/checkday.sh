@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/puppetlabs/day.txt
+printf "%s" "$(</etc/puppetlabs/day.txt)"
