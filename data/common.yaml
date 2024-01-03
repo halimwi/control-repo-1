@@ -220,3 +220,11 @@ cem_linux::config:
     - 'ensure_firewalld_service_is_enabled_and_running'
     - 'ensure_time_synchronization_is_in_use'
 
+
+patching_as_code::patch_schedule:
+  group1:
+    day_of_week: "%{day}"
+    count_of_week: 2
+    hours: 10:00 - 11:00
+    max_runs: 1
+    reboot: ifneeded
