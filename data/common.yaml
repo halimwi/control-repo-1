@@ -220,6 +220,7 @@ cem_linux::config:
     - 'ensure_firewalld_service_is_enabled_and_running'
     - 'ensure_time_synchronization_is_in_use'
 
+patching_as_code::patch_group: "%{fqdn}"
 
 patching_as_code::patch_schedule:
   "%{fqdn}":
