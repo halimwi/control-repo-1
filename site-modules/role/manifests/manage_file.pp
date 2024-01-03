@@ -1,5 +1,5 @@
 class role::manage_file (
-  String content = 'Monday',
+  $content = 'Monday',
 )
 {
 
