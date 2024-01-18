@@ -3,7 +3,7 @@ forge 'http://forge.puppetlabs.com'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-mod 'puppetlabs-cem_linux', '1.7.1'
+#mod 'puppetlabs-cem_linux', '1.7.1'
 #  :git => 'git@github.com:puppetlabs/puppetlabs-cem_linux.git',
 #  :ref => 'main'
 #mod 'puppetlabs-cem_windows', '1.3.0'
