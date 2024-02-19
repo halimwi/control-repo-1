@@ -51,8 +51,8 @@ mod 'puppetlabs-reboot', '5.0.0'
 mod 'puppetlabs-servicenow_reporting_integration', '1.0.0'
 mod 'puppetlabs-servicenow_cmdb_integration', '0.2.0'
 mod 'puppetlabs-patching_as_code', '1.1.7'
-mod 'puppetlabs-cem_linux', '1.9.1'
-mod 'puppetlabs-cem_windows', '1.5.1'
+#mod 'puppetlabs-cem_linux', '1.9.1'
+#mod 'puppetlabs-cem_windows', '1.5.1'
 
 #mod 'provision',
 #    git: 'https://github.com/puppetlabs/provision.git',
