@@ -1,16 +1,3 @@
-
-
-#
-#forge 'http://forge.puppetlabs.com'
-
-# Modules from the Puppet Forge
-# Versions should be updated to be the latest at the time you start
-#mod 'puppetlabs-cem_linux', '1.7.1'
-#  :git => 'git@github.com:puppetlabs/puppetlabs-cem_linux.git',
-#  :ref => 'main'
-#mod 'puppetlabs-cem_windows', '1.3.0'
-#  :git => 'git@github.com:puppetlabs/puppetlabs-cem_windows.git',
-#  :ref => 'main'
 mod 'puppetlabs-apt', '9.0.2'
 mod 'puppetlabs-motd', '7.1.0'
 mod 'puppetlabs-augeas_core', '1.1.1'
@@ -55,3 +42,34 @@ mod 'puppetlabs-servicenow_cmdb_integration', '0.2.0'
 mod 'puppetlabs-patching_as_code', '1.1.7'
 mod 'puppetlabs-cem_linux', '1.9.0'
 mod 'puppetlabs-cem_windows', '1.5.1'
+
+#mod 'provision',
+#    git: 'https://github.com/puppetlabs/provision.git',
+#    ref: '39665ef'
+
+#mod 'demo_cis',
+#    git: 'https://github.com/ipcrm/ipcrm-demo_cis.git',
+#    ref: '4e6b63b'
+
+# This is missing dependency on mayflower-php, needs updated to use puppet-php at least
+# This is missing dependency on puppet-app_modeling, is it needed?
+#mod 'rgbank',
+#    git:            'https://github.com/puppetlabs-seteam/puppetlabs-rgbank.git',
+#    branch:         :control_branch,
+#    default_branch: 'master'
+
+#mod 'netstat',
+#    git: 'https://github.com/ipcrm/ipcrm-netstat.git',
+#    ref: '64bcee0'
+
+#mod 'group_a',
+#    git:            'https://github.com/halimwi/group_a.git',
+#    branch:         :control_branch,
+#    default_branch: 'main'
+
+#mod 'group_b',
+#    git:            'https://github.com/halimwi/group_b.git',
+#    branch:         :control_branch,
+#    default_branch: 'main'
+
+mod 'puppetlabs-kubernetes', '8.0.0'
